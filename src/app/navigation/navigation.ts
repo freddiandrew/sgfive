@@ -16,20 +16,6 @@ export const navigation: FuseNavigation[] = [
                 url      : '/home',
             },
             {
-                id       : 'login',
-                title    : 'Sample',
-                translate: 'NAV.SAMPLE.TITLE',
-                type     : 'item',
-                icon     : 'email',
-                url      : '/auth/login',
-                badge    : {
-                    title    : '25',
-                    translate: 'NAV.SAMPLE.BADGE',
-                    bg       : '#F44336',
-                    fg       : '#FFFFFF'
-                }
-            },
-            {
                 id       : 'finance',
                 title    : 'Finance',
                 translate: 'NAV.FINANCE',
